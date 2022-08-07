@@ -21,10 +21,11 @@ function addCat(){
     let catsElement = document.getElementById("cats");
     let catImg = document.createElement("img");
     catImg.src="https://placekitten.com/"+x+"/"+y;
-    y+=1
+    y+=1;
     catImg.height=200;
     catImg.width=200;
     catImg.style.boxShadow = "0px 10px 50px rgba(0,0,0,0.7)";
+    catImg.style.margin = "6px 0"
     catsElement.append(catImg);
 }
 

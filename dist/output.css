@@ -835,6 +835,22 @@ video {
   .md\:w-4\/6 {
     width: 66.666667%;
   }
+
+  .md\:w-4\/12 {
+    width: 33.333333%;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
+  }
+
+  .md\:w-6\/12 {
+    width: 50%;
+  }
+
+  .md\:w-2\/3 {
+    width: 66.666667%;
+  }
 }
 
 @media (min-width: 1024px) {
